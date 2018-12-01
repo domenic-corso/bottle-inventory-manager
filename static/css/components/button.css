@@ -1,0 +1,16 @@
+.button {
+    padding: 4px 12px;
+    border: none;
+    outline: none;
+    background: #666666;
+    color: #eeeeee;
+    font-family: var(--base-font);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.25s;
+}
+
+.button:active {
+    background: #333333;
+}
